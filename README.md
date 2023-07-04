@@ -8,9 +8,11 @@
 
 ## Introduction
 
-In this project I have implemented a program for viewing three-dimensional wireframe models (3D Viewer) in the programming language C/C++ with Qt. The models are loaded from .obj files and viewed on the screen with the ability to rotate, scale and translate.
-The program is built with a Makefile(and cmake for Qt) which contains a set of goals: all, install, uninstall, clean, dvi, dist, tests, gcov.
-Examples of obj-files are stored in obj_examples
+In this project I have implemented a program for viewing three-dimensional wireframe models (3D Viewer) in the programming language C/C++ and GUI implementation, based on Qt (OpenGL).  
+The models are loaded from .obj files and viewed on the screen with the ability to rotate, scale and translate.
+The program is built with a Makefile(and cmake for Qt) which contains a set of goals: all, install, uninstall, clean, dvi, dist, tests, gcov.  
+Examples of obj-files are stored in obj_examples.
+
 
 ![3DViewer](materials/deer-gif.gif)
 
